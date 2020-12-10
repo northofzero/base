@@ -1,5 +1,5 @@
 import Background from "../containers/background";
-import * as S from "./styles";
+import * as S from "../styles/styles";
 import icon from "../assets/noz.png";
 
 export default function Home() {
