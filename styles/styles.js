@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { mobile, tabletDown } from "../utils/mediaQuery";
 
 export const Container = styled.div`
 	width: 100%;
@@ -14,6 +15,39 @@ export const IconContainer = styled.div`
 	position: absolute;
 	z-index: 2;
 	justify-content: center;
+	display: flex;
+
+	${tabletDown} {
+		height: 80%;
+		flex-direction: column;
+	}
+`;
+
+export const Description = styled.div`
+	width: 70%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	${tabletDown} {
+		width: 100%;
+		align-items: center;
+	}
+
+	p {
+		width: 32rem;
+		color: #a6a6a6;
+		font-size: 1.1rem;
+
+		${tabletDown} {
+			font-size: 0.9rem;
+		}
+
+		${mobile} {
+			width: 20rem;
+		}
+	}
 `;
 
 export const Icon = styled.div`
@@ -26,6 +60,11 @@ export const Icon = styled.div`
 		align-self: center;
 		width: calc(22rem + 15px);
 		height: 8.5rem;
+
+		${tabletDown} {
+			width: calc(18rem + 15px);
+			height: 7.5rem;
+		}
 	}
 `;
 
@@ -49,6 +88,13 @@ export const ContactContainer = styled.div`
 	}
 
 	a {
+		margin: 0;
+		padding: 0;
+
+		margin-left: 2.5rem;
+
+		line-height: 21px;
+
 		text-decoration: none;
 		color: #a6a6a6;
 	}
