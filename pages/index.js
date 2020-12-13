@@ -13,7 +13,9 @@ export default function Home() {
 			</S.IconContainer>
 			<S.ContactContainer>
 				<p>A FOUNDATION FOR SCALABLE GROWTH</p>
-				<p>CONTACT</p>
+				<p>
+					CONTACT <a href="mailto:run@northofzero.dev">RUN@NORTHOFZERO.DEV</a>
+				</p>
 				<p>2020 NORTH OF ZERO</p>
 			</S.ContactContainer>
 		</S.Container>

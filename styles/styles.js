@@ -47,4 +47,9 @@ export const ContactContainer = styled.div`
 
 		color: #a6a6a6;
 	}
+
+	a {
+		text-decoration: none;
+		color: #a6a6a6;
+	}
 `;

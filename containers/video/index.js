@@ -21,7 +21,7 @@ export default function VideoPlayer() {
 						muted: true,
 						autoPlay: true,
 						id: "video-player",
-						// poster: "thumbnail.png",
+						poster: "thumbnail.png",
 					},
 				},
 			}}

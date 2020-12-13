@@ -6,7 +6,7 @@
 		"dev": "next dev",
 		"build": "next build",
 		"start": "next start",
-		"deploy": "npm run build && next export && aws s3 sync out/ s3://north-of-zero --acl public-read"
+		"deploy": "npm run build && next export && aws s3 sync out/ s3://northofzero.dev --acl public-read"
 	},
 	"dependencies": {
 		"@emotion/css": "^11.0.0",
