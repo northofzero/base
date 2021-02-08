@@ -76,7 +76,7 @@ export const Brand = styled.p`
   font-size: 100px;
   color: ${(props) => (props.active ? "#39FF14" : "#000000")};
   transition: color ${colorTransition};
-
+  text-align: center;
   ${tabletDown} {
     width: calc(18rem + 15px);
     height: 7.5rem;
