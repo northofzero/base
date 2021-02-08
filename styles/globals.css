@@ -1,60 +1,65 @@
 html,
 body {
-	padding: 0;
-	margin: 0 auto;
-	width: 100%;
-	height: 100%;
-	font-family: "Orbitron", sans-serif;
-	color: white;
-	background-color: #222;
-	font-size: 13px;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  font-family: "Orbitron", sans-serif;
+  color: white;
+  background-color: #222;
+  font-size: 13px;
+}
+
+@font-face {
+  font-family: "Barcode";
+  src: url(../assets/fonts/BarcodeFont.ttf);
 }
 
 @media (max-width: 900px) {
-	html {
-		font-size: 15px;
-	}
+  html {
+    font-size: 15px;
+  }
 }
 @media (max-width: 400px) {
-	html {
-		font-size: 13px;
-	}
+  html {
+    font-size: 13px;
+  }
 }
 
 ::-webkit-scrollbar {
-	width: 0.6rem;
-	border-radius: 10px;
+  width: 0.6rem;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-track {
-	background: none;
+  background: none;
 }
 
 ::-webkit-scrollbar-thumb {
-	background: #888;
-	border-radius: 10px;
+  background: #888;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-	background: #131313;
+  background: #131313;
 }
 
 video {
-	object-fit: cover;
+  object-fit: cover;
 }
 
 .video-js {
-	width: 100%;
-	height: 100vh !important;
-	object-fit: cover;
+  width: 100%;
+  height: 100vh !important;
+  object-fit: cover;
 }
 
 .vjs-poster {
-	width: 100%;
-	height: 100vh !important;
-	background-size: cover !important;
+  width: 100%;
+  height: 100vh !important;
+  background-size: cover !important;
 }
 
 .react-player__shadow {
-	visibility: hidden;
+  visibility: hidden;
 }
